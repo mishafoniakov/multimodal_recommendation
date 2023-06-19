@@ -21,7 +21,9 @@ This repository consists of two parts. Part 1 contains only results of my projec
 ### Step 0. Download image dataset and text dataset
 + [Yandex Image Dataset](https://disk.yandex.ru/d/3owCpPC5nd3BAQ)
 
-### Step 1. Building CLIP&BERT vectors. Run these notebooks contineously
+### Step 1. Building CLIP&BERT vectors
+
+Run these notebooks contineously
 + [CLIP Preparing notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_1/01_img_dataset.ipynb)
 + [BERT Preparing notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_1/01_txt_dataset.ipynb)
 
