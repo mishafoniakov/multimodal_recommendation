@@ -10,8 +10,8 @@ This repository consists of two parts. Part 1 contains only results of my projec
 ## 1. Results
 
 ### Step 1. Download image dataset and text dataset
-..*[Yandex Image Dataset](https://disk.yandex.ru/d/3owCpPC5nd3BAQ)
-  *[Yandex Text Dataset](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_1/01_image_text_dataset.json)
++[Yandex Image Dataset](https://disk.yandex.ru/d/3owCpPC5nd3BAQ)
++[Yandex Text Dataset](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_1/01_image_text_dataset.json)
 
 ### Step 2. Run the notebok
   [Results notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_5/05_results.ipynb)
