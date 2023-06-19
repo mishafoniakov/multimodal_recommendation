@@ -10,21 +10,20 @@ This repository consists of two parts. Part 1 contains only results of my projec
 ## 1. Results
 
 ### Step 1. Download image dataset and text dataset
-[Yandex Image Dataset](https://disk.yandex.ru/d/3owCpPC5nd3BAQ)
-[Yandex Text Dataset](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_1/01_image_text_dataset.json)
+  *[Yandex Image Dataset](https://disk.yandex.ru/d/3owCpPC5nd3BAQ)
+  *[Yandex Text Dataset](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_1/01_image_text_dataset.json)
 
 ### Step 2. Run the notebok
-[Results notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_5/05_results.ipynb)
+  [Results notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_5/05_results.ipynb)
 
 ## 2. All steps
 
 ### Step 0. Download image dataset and text dataset
-[Yandex Image Dataset](https://disk.yandex.ru/d/3owCpPC5nd3BAQ)
+  [Yandex Image Dataset](https://disk.yandex.ru/d/3owCpPC5nd3BAQ)
 
 ### Step 1. Building CLIP&BERT vectors. Run these notebooks contineously
-[CLIP Preparing notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_1/01_img_dataset.ipynb)
-
-[BERT Preparing notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_1/01_txt_dataset.ipynb)
+  *[CLIP Preparing notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_1/01_img_dataset.ipynb)
+  *[BERT Preparing notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_1/01_txt_dataset.ipynb)
 
 As a result, you should have this file
 [CLIP&BERT Dataset](https://disk.yandex.ru/d/zBu38Dzt0c1_HA)
