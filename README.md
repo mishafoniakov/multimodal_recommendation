@@ -30,8 +30,8 @@ As a result, you should have this file
 ### Step 2. Creating clusters for CLIP&BERT embeddings. Run this notebook
 [Creating clusters notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_3/03_clusters_pipeline.ipynb)
 
-As a result, you should have this file with images and it's candidates according to three nearest clusters
-[Images candidates](https://disk.yandex.ru/d/zBu38Dzt0c1_HA)
+As a result, you should have this dataframe with images and it's candidates according to three nearest clusters
+[Images candidates dataframe](https://disk.yandex.ru/d/kJpqsozauypL-g)
 
 ### Step 3. Learn CatBoost model
 Download this learning dataset
@@ -43,12 +43,17 @@ Run this notebook
 As a result, you should have file with catboost model
 [Catboost model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_4/04_catboost_model.bin)
 
-### Step 4. Learn CatBoost model
-Download this learning dataset
-[Learning pipeline](https://disk.yandex.ru/d/j-shokV1xPW1-w)
+### Step 4. Predict targets for paired images
+You should use this dataframe, which you have obtained at step 2
+[Nearest clusters](https://disk.yandex.ru/d/kJpqsozauypL-g)
 
 Run this notebook
-[Learning model notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_4/04_model_learning.ipynb)
+[Target predicting notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_5/05_image_candidates.ipynb)
 
-As a result, you should have file with catboost model
-[Catboost model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_4/04_catboost_model.bin)
+As a result, you should have files with candidates for 3 different models: (1) CatBoostModel (2) using only CLIP (3) using only BERT
+[Catboost model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_5/05_image_model_candidates_5.json)
+[CLIP model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_5/05_image_candidates_5_clip_cossim.json)
+[BERT model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_5/05_image_candidates_5_bert_cossim.json)
+
+### Step 5. Results
+[Results](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_6/06_results.ipynb)
