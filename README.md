@@ -51,14 +51,9 @@ As a result, you should have file with catboost model
 + Run this notebook
 [Target predicting notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_4/04_image_candidates.ipynb)
 
-As a result, you should have files with candidates for 3 different models: (1) CatBoostModel (2) using only CLIP (3) using only BERT
-
-+ [Catboost model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_4/04_image_model_candidates_5.json)
-
-+ [CLIP model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_4/04_image_candidates_5_clip_cossim.json)
-
-+ [BERT model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_4/04_image_candidates_5_bert_cossim.json)
+As a result, you should have files with candidates for 3 different models: (1) [Catboost model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_4/04_image_model_candidates_5.json) (2) [CLIP model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_4/04_image_candidates_5_clip_cossim.json) (3) [BERT model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_4/04_image_candidates_5_bert_cossim.json)
 
 ### Step 5. Results
 
-[Results notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_5/05_results.ipynb)
+Run this notebook and obtain the results
++ [Results notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_5/05_results.ipynb)
