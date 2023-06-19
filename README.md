@@ -1,5 +1,7 @@
-# multimodal_recommemdation
-Application of multimodal models for the image recommendation systems
+# Application of multimodal models for the image recommendation systems
+
+With the development of Internet technologies new sources of information have become available. Social networks play an important role in our life. Users started to upload images of everything they preferred. There was a need to systematize these images. The special algorithm was required and it was called recommendation (or recommender) system. However, it is not perfect. Different tasks require different data to make recommendations. Examples of such data can be descriptive text of the goods or some metrics, which we can obtain. These properties/characteristics are called multimodal information. And the models that use this information, are called multimodal.
+In this thesis I present the multimodal recommendation model, which consists of two parts. The first part is the image itself. We vectorise it, and obtain different metrics. The second part is the test description of the image. We also vectorise it and add necessary metrics. Then we concatenate these data sets into one and train the model with all the data. Finally for one random image we obtain a certain amount of recommendation images.
 
 Welcome to the GitHub page of my project 'Application of multimodal models for the image recommendation systems'
 
@@ -51,8 +53,11 @@ Run this notebook
 [Target predicting notebook](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_5/05_image_candidates.ipynb)
 
 As a result, you should have files with candidates for 3 different models: (1) CatBoostModel (2) using only CLIP (3) using only BERT
+
 [Catboost model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_5/05_image_model_candidates_5.json)
+
 [CLIP model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_5/05_image_candidates_5_clip_cossim.json)
+
 [BERT model](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_5/05_image_candidates_5_bert_cossim.json)
 
 ### Step 5. Results
