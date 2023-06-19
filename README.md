@@ -19,9 +19,16 @@ This repository consists of two parts. Part 1 contains only results of my projec
 ### Step 1. Download image dataset and text dataset
 [Yandex Image Dataset](https://disk.yandex.ru/d/3owCpPC5nd3BAQ)
 
-### Step 2. Run these notebooks contineously
-[Step 2.1](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_1/01_img_dataset.ipynb)
-[Step 2.2](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_2/02_txt_dataset.ipynb)
+### Step 2. Building CLIP&BERT vectors. Run these notebooks contineously
+[CLIP Preparing](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_1/01_img_dataset.ipynb)
 
-As a result, you should have two such files
-[]
+[BERT Preparing](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_2/02_txt_dataset.ipynb)
+
+As a result, you should have this file
+[CLIP&BERT Dataset](https://disk.yandex.ru/d/zBu38Dzt0c1_HA)
+
+### Step 3. Creating clusters for CLIP&BERT embeddings
+[Creating clusters](https://github.com/mishafoniakov/multimodal_recommendation/blob/main/step_3/03_clusters_pipeline.ipynb)
+
+As a result, you should have this dataframe with paired images, accordin to clusters
+[Paired images dataframe]
